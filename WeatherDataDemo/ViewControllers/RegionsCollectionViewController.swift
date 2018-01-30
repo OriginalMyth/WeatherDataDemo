@@ -167,7 +167,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                     } else {
                         valueString = "\(month.value)"
                     }
-                    let newLine = "\(region.name), Rain Temp \(rain.year ?? 0), \(month.name), \(valueString)\n "
+                    let newLine = "\(region.name), Rainfall \(rain.year ?? 0), \(month.name), \(valueString)\n "
                     csvText.append(newLine)
                 }
                 
@@ -178,7 +178,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                     } else {
                         valueString = "\(season.value)"
                     }
-                    let newLine = "\(region.name), Rain Temp \(rain.year ?? 0), \(season.name), \(valueString)\n "
+                    let newLine = "\(region.name), Rainfall \(rain.year ?? 0), \(season.name), \(valueString)\n "
                     csvText.append(newLine)
                 }
                 
@@ -189,7 +189,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                         valueString = "\(annual)"
                     }
                 }
-                let newLine = "\(region.name), Rain Temp \(rain.year ?? 0), ANN, \(valueString)\n"
+                let newLine = "\(region.name), Rainfall \(rain.year ?? 0), ANN, \(valueString)\n"
                 csvText.append(newLine)
             }
             
@@ -201,7 +201,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                     } else {
                         valueString = "\(month.value)"
                     }
-                    let newLine = "\(region.name), Sun Temp \(sun.year ?? 0), \(month.name), \(valueString)\n "
+                    let newLine = "\(region.name), Sunshine \(sun.year ?? 0), \(month.name), \(valueString)\n "
                     csvText.append(newLine)
                 }
                 
@@ -212,7 +212,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                     } else {
                         valueString = "\(season.value)"
                     }
-                    let newLine = "\(region.name), Sun Temp \(sun.year ?? 0), \(season.name), \(valueString)\n "
+                    let newLine = "\(region.name), Sunshine \(sun.year ?? 0), \(season.name), \(valueString)\n "
                     csvText.append(newLine)
                 }
                 
@@ -222,7 +222,7 @@ class RegionsCollectionViewController: UICollectionViewController {
                         valueString = "\(annual)"
                     }
                 }
-                let newLine = "\(region.name), Rain Temp \(sun.year ?? 0), ANN, \(valueString)\n"
+                let newLine = "\(region.name), Sunshine \(sun.year ?? 0), ANN, \(valueString)\n"
                 
                     
                 csvText.append(newLine)
