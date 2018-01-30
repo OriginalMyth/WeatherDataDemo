@@ -49,19 +49,6 @@ enum Regions : Int {
         return Constants.metBaseUrl + val + self.urlEnd
     }
     
-    //Need to set regions instance
-//    var urlEndpoint : String {
-//        switch self {
-//        case.UK:
-//            return Constants.metBaseUrl + DataValues.Rainfall.urlDescription + self.urlEnd
-//        case .England:
-//            return Constants.metBaseUrl + DataValues.Rainfall.urlDescription + self.urlEnd
-//        case .Scotland:
-//            return Constants.metBaseUrl + DataValues.Rainfall.urlDescription + self.urlEnd
-//        case .Wales:
-//            return Constants.metBaseUrl + DataValues.Rainfall.urlDescription + self.urlEnd
-//        }
-//    }
     
     static let count: Int = {
         var max: Int = 0
