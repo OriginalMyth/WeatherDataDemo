@@ -25,10 +25,14 @@ Improvements
 
 Improved error handling
 Unit tests and UITesting
-Share -> Needs share image
+Share -> Needs share image and logic to make it safer
+Also share button could be added to other screens to select what data to send.
 
 Notes on Implementation
+The first screen shows an overview of the data from the most recent year.
 A tableview would have been suffice but a collection view offers more flexibility and therefore offers more scope in the future. Therefore a  collection view was chosen over a tableview
+
+To export the csv file press the share button on the home view. It works best from actual device where can email it.
 
 Sketch   A mock-up is included in Storyboard and can be seen on running the app. I tend to do my sketching with pencil and paper and then storyboard so decided to include the storyboard as the best way to show the mock-up.
 
